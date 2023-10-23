@@ -1,0 +1,14 @@
+# mac os
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# env
+*.env
+
+# file
+*.mobileprovision
+
+
