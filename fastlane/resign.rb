@@ -41,10 +41,10 @@ login(username, password)
 update_and_download_profile(ENV['APP_PROFILE_NAME'], Spaceship.device.all)
 update_and_download_profile(ENV['APP_EXTENSION_PROFILE_NAME'], Spaceship.device.all)
 
-ipa_path = ENV['IPA_PATH']
-signing_identity = ENV['SIGNING_IDENTITY']
-provisioning_profile = ENV['PROVISIONING_PROFILE']
-resign_app(ipa_path, signing_identity, provisioning_profile)
+# ipa_path = ENV['IPA_PATH']
+# signing_identity = ENV['SIGNING_IDENTITY']
+# provisioning_profile = ENV['PROVISIONING_PROFILE']
+# resign_app(ipa_path, signing_identity, provisioning_profile)
 
 
 
